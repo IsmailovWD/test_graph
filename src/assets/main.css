@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.echarts {
+  position: relative !important;
+}
+
+.text.large {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.text.medium {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.text.small {
+  font-size: 14px;
+}
+
+.text.standart {
+  font-size: 16px;
+}
+
+.view-page {
+  position: relative;
+  animation: animatepage .2s linear;
+}
+
+@keyframes animatepage {
+  0% {
+    transform: scale(.6);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
